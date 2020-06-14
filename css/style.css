@@ -46,8 +46,8 @@ body {
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/montserrat/Montserrat-ExtraLight.woff") format("woff"),
-  url("../fonts/montserrat/Montserrat-ExtraLight.woff2") format("woff2"),
-  url("../fonts/montserrat/Montserrat-ExtraLight.ttf") format("truetype");
+    url("../fonts/montserrat/Montserrat-ExtraLight.woff2") format("woff2"),
+    url("../fonts/montserrat/Montserrat-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
@@ -55,8 +55,8 @@ body {
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/montserrat/Montserrat-Medium.woff") format("woff"),
-  url("../fonts/montserrat/Montserrat-Medium.woff2") format("woff2"),
-  url("../fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+    url("../fonts/montserrat/Montserrat-Medium.woff2") format("woff2"),
+    url("../fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -64,8 +64,8 @@ body {
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/montserrat/Montserrat-Bold.woff") format("woff"),
-  url("../fonts/montserrat/Montserrat-Bold.woff2") format("woff2"),
-  url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+    url("../fonts/montserrat/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -100,7 +100,8 @@ body {
    02. Typography
    _____________________________________ */
 
-h1, .h1 {
+h1,
+.h1 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 45px;
   font-weight: 400;
@@ -109,7 +110,8 @@ h1, .h1 {
   margin-bottom: 10px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 400;
@@ -120,7 +122,8 @@ h2, .h2 {
   margin-bottom: 30px;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 26px;
   font-weight: 400;
@@ -131,7 +134,8 @@ h3, .h3 {
   margin-bottom: 0;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -142,7 +146,8 @@ h4, .h4 {
   margin-bottom: 10px;
 }
 
-p, .lead {
+p,
+.lead {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -200,7 +205,7 @@ b {
    ---------------------------------- */
 
 .text-color {
-  color: #00ACC1;
+  color: #00acc1;
 }
 
 .text-white {
@@ -221,7 +226,7 @@ b {
    _____________________________________ */
 
 .bg-color {
-  background-color: #00ACC1;
+  background-color: #00acc1;
 }
 
 .bg-white {
@@ -253,7 +258,7 @@ b {
 }
 
 .bg-square-color {
-  background-color: #5E35B1;
+  background-color: #5e35b1;
 }
 
 /* _____________________________________
@@ -312,7 +317,7 @@ a.btn {
   vertical-align: middle;
   cursor: pointer;
   border-radius: 0;
-  transition: background .3s ease-in-out;
+  transition: background 0.3s ease-in-out;
 }
 
 .btn i {
@@ -368,7 +373,7 @@ a.btn.btn-dark:focus {
 .btn-color,
 a.btn-color {
   color: #fff;
-  background-color: #00ACC1;
+  background-color: #00acc1;
 }
 
 .btn.btn-color:hover,
@@ -378,7 +383,7 @@ a.btn.btn-color:hover,
 a.btn.btn-color:active,
 a.btn.btn-color:focus {
   color: #fff;
-  background-color: #0097A7;
+  background-color: #0097a7;
 }
 
 /* ----------------------------------
@@ -453,8 +458,8 @@ a.btn.btn-border-white:focus {
   height: 2px;
   padding: 0;
   -webkit-appearance: none;
-  -moz-appearance:    none;
-  appearance:         none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .form-control:focus {
@@ -478,7 +483,7 @@ textarea.form-control {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  transition: width .5s ease-in-out;
+  transition: width 0.5s ease-in-out;
 }
 
 .focus.form-group,
@@ -603,7 +608,7 @@ input:focus::-webkit-contacts-auto-fill-button {
 }
 
 .message {
-  background-color: #2E7D32;
+  background-color: #2e7d32;
 }
 
 label.message-text {
@@ -621,8 +626,8 @@ label.message-text {
    _____________________________________ */
 
 .vert-middle {
-  min-height: 700px;
-  height: 100%;
+  /*min-height: 700px;
+  height: 100%;*/
   align-items: center;
   display: flex;
 }
@@ -734,8 +739,8 @@ label.message-text {
 
 .full-info .navbar-links li {
   transform: translate(0px, 0px);
-opacity: 1;
-visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 /* ----------------------------------
@@ -768,7 +773,7 @@ header {
   filter: alpha(opacity=100);
   opacity: 1;
   transform: rotate(0deg);
-  transition: .25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .navbar-button span:nth-child(1) {
@@ -798,8 +803,6 @@ header {
   top: 7px;
   transform: rotate(-135deg);
 }
-
-
 
 /* _____________________________________
 
@@ -886,7 +889,7 @@ header {
 }
 
 .page-image-bw {
-    background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
+  background: url("../images/placeholder-2400-1600.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -969,14 +972,15 @@ body.vegas-container > .vegas-slide {
 }
 
 .ball-scale-ripple-multiple-color > div {
-  border-color: #00ACC1;
+  border-color: #00acc1;
 }
 
 .ball-scale-ripple-multiple-bw > div {
   border-color: #fff;
 }
 
-.ball-pulse-sync > div, .ball-pulse > div {
+.ball-pulse-sync > div,
+.ball-pulse > div {
   width: 10px;
   height: 10px;
   margin: 5px;
@@ -1025,7 +1029,6 @@ body.vegas-container > .vegas-slide {
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   transition: all 1s;
-
 }
 
 .modal.modal-scale .modal-dialog > div {
@@ -1049,7 +1052,7 @@ body.vegas-container > .vegas-slide {
 
 .modal-backdrop.in {
   filter: alpha(opacity=20);
-  opacity: .2
+  opacity: 0.2;
 }
 
 /* _____________________________________
@@ -1174,6 +1177,7 @@ body.vegas-container > .vegas-slide {
   height: 400px;
 }
 
-.map h4, .map h5 {
+.map h4,
+.map h5 {
   margin-top: 0;
 }
