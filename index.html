@@ -1,316 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-<h  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+<html>
 
-    <!-- Title of Website -->
-    <title>Creativitink – Coming Soon Landing Page</title>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap" rel="stylesheet"> 
+    <style>
+        .center-screen {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 90vh;
+        }
+        body {
+            font-family: 'Merriweather', serif;
+            color: #fff;
+            background-image: url("images/body-bg.jpg");
+            background-repeat: repeat;
+            font-size: 14pt;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        #logo img {
+            width: 150px;
+        }
+        #bg {
+            margin-top: 10px;
+            background-image: url("images/frame.png");
+            background-repeat: no-repeat;            
+            background-size: 100% 100%;
+        }
+        #content {
+            margin: auto auto;
+            width: 50%;
+        }
+        p.italic {
+            font-style: italic;
+        }
+        .social {
+            text-align: center;
+        }
+        .social li {
+            display: inline-block;
+            list-style-type: none;  
+            margin-right: 10px;
+        }
+        .social li a {
+            display: block;
+        }
+		.social img {
+			height: 40px;            
+		}
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        .button {
+            background-color: #f69c3b; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+    </style>
+</head>
 
-    <meta name="description" content="Coming Soon Creativitink" />
-    <meta
-      name="keywords"
-      content="storywriter, illustrator, editor, sound engineer, voice actor, collaboration platform"
-    />
-    <meta name="author" content="Creativitink" />
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.png" type="image/png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css" />
-
-    <!-- Font Icons -->
-    <link rel="stylesheet" href="css/icons/font-awesome.css" />
-    <link rel="stylesheet" href="css/icons/linea.css" />
-
-    <!-- Google Fonts -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700"
-    />
-
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="css/plugins/loaders.min.css" />
-    <link rel="stylesheet" href="css/plugins/photoswipe.css" />
-    <link rel="stylesheet" href="css/icons/photoswipe/icons.css" />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet" />
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body data-spy="scroll" data-target=".scrollspy" class="bg-dark">
-    <!-- Preloader  -->
-    <div class="loader bg-dark">
-      <div
-        class="loader-inner ball-scale-ripple-multiple ball-scale-ripple-multiple-color"
-      >
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-    <!-- /End Preloader  -->
-
-    <div id="page">
-      <!-- ============================
-       BG & Overlays
-  ================================= -->
-
-      <!-- Rain Image BG -->
-      <div class="section-overlay media">
-        <img
-          id="page-rain"
-          alt=""
-          src="images/placeholder-2400-1600-rain.jpg"
-        />
-      </div>
-      <!-- /End Rain Image  BG -->
-
-      <!-- Modal -->
-      <div
-        id="modal-notify"
-        class="modal fade modal-scale"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="meinModalLabel"
-      >
-        <!-- .modal-dialog -->
-        <div class="modal-dialog" role="document">
-          <div>
-            <!-- .modal-content -->
-            <div class="modal-content text-center bg-dark text-light">
-              <button
-                class="button-close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <i class="icon icon-lg icon-arrows-remove"></i>
-              </button>
-
-              <!-- Headline -->
-              <div class="wrap-line border-dark">
-                <h3><span class="font-weight-200">Stay</span> Tuned</h3>
-              </div>
-              <!-- /End Headline -->
-
-              <!-- Description -->
-              <div class="p-t-b-15">
-                <p>
-                  We will launch our website soon.<br />
-                  Please stay updated and follow.
+<body>
+    <div class="center-screen">
+        <div id="logo">
+            <img src="images/creativitink-logo.png" />
+        </div>        
+        <div id="bg">
+            <div id="content">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <h2>Hi there!</h2>
+                <p>We are planning to launch a platform for all creatives out there!
                 </p>
-              </div>
-              <!-- /End Description -->
-
-              <div class="p-t-b-30">
-                <!-- Newsletter Form:
-             alternative newsletter form via email;
-             write your email in newsletter-process.php and use:
-             <form action="php/newsletter-process.php" id="newsletter-form" method="post"> insted of
-             <form id="mc-form"> -->
-                <form id="mc-form">
-                  <input
-                    type="text"
-                    class="form-control form-control-custom"
-                    tabindex="-1"
-                    id="text-field-nl"
-                    name="text-field-nl"
-                  />
-
-                  <!-- Input Group -->
-                  <div class="input-group">
-                    <input
-                      type="email"
-                      id="email"
-                      class="form-control form-control-light"
-                      name="email"
-                      placeholder="Enter your Email here..."
-                    />
-                    <span class="input-group-btn">
-                      <button type="submit" class="btn btn-color">
-                        <i
-                          class="icon icon-sm icon-arrows-slim-right-dashed"
-                        ></i>
-                      </button>
-                    </span>
-                  </div>
-                  <!-- /End Input Group -->
-
-                  <!-- Message Alert -->
-                  <div
-                    id="message-newsletter"
-                    class="message-wrapper text-white message"
-                  >
-                    <span
-                      ><i class="icon icon-sm icon-arrows-slim-right-dashed"></i
-                      ><label class="message-text" for="email"></label
-                    ></span>
-                  </div>
-                  <!-- /End Message Alert -->
-                </form>
-                <!-- /End Newsletter Form -->
-              </div>
+                <p>Publish and monetize your creative projects like stories, illustrations, and more.
+                    From the creators of
+                <a href="https://templatesandvectors.com">Templates and Vectors</a> and <a href="https://www.facebook.com/KalidadPrintsAndFavors"><em>Kalidad Prints and Favors.</em></a></p>                    
+                <p class="italic">If you are interested to have early access and be the first to know when Creativitink launches, click
+                    the <strong>sign-up</strong> button below!</p>
+                <a href="https://forms.gle/rouoDvH4bDLnQocH7" target="_blank" class="button" role="button">Sign up
+                </a>
+                <p class="italic">Already joined? <strong>Invite friends by sharing these links.</strong></p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
             </div>
-          </div>
-          <!-- /End .modal-content -->
         </div>
-        <!-- /End .modal-dialog -->
-      </div>
-      <!-- /End Modal -->
-
-      <!-- ============================
-       Header Navigation
-  ================================= -->
-
-      <header>
-        <nav class="navbar navbar-fixed-top">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-12 text-white col-transform">
-                <div class="navbar-wrapper">
-                  <!-- Navbar Button -->
-                  <!--<button class="navbar-button show-info" data-href="#content">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </button>-->
-                  <!-- /End Navbar Button -->
-
-                  <!-- Navbar Links -->
-                  <div class="navbar-links scrollspy">
-                    <ul class="nav">
-                      <li>
-                        <a class="smooth-scroll link-white" href="#about"
-                          >About</a
-                        >
-                      </li>
-                      <li>
-                        <a class="smooth-scroll link-white" href="#contact"
-                          >Contact</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- /End Navbar Links -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
-
-      <div class="container-fluid">
-        <div class="row">
-          <!-- ============================
-           Info
-      ================================= -->
-
-          <div
-            id="info"
-            class="col-md-12 text-white text-center page-info col-transform"
-          >
-            <div class="vert-middle">
-              <div class="reveal scale-out">
-                <!-- Logo -->
-                <div class="p-t-b-15">
-                  <img src="images/logo-lg.png" height="86" width="70" alt="" />
-                </div>
-                <!-- /End Logo -->
-
-                <div class="p-t-b-15">
-                  <!-- Headline & Description -->
-                  <h2>
-                    <span class="font-weight-200">We're launching our</span
-                    ><br />new Website
-                  </h2>
-
-                  <p>
-                    We are Creativitink, an online platform where creatives
-                    (story/novel/manga writer, editor, illustrator, voice actor,
-                    sound engineer) can connect, publish and read stories.<br />
-                  </p>
-
-                  <hr style="width: 50%;" />
-                  <!-- /End Headline & Description -->
-                  <p>
-                    If you are interested to become part of our closed beta
-                    release when it becomes available, sign up in the form
-                    below.
-                  </p>
-                </div>
-                <!-- Arrow -->
-                <div class="p-t-b-20">
-                  <i class="icon icon-sm icon-arrows-slim-down-dashed"></i>
-                </div>
-                <!-- /End Arrow -->
-
-                <!-- Buttons -->
-                <div class="p-t-b-15 btn-row">
-                  <a
-                    href="https://forms.gle/rouoDvH4bDLnQocH7"
-                    target="_blank"
-                    class="btn btn-color"
-                    role="button"
-                    >Sign up
-                  </a>
-                </div>
-                <!-- /End Buttons -->
-
-                <!-- Social Media Links -->
-                <div class="p-t-b-30">
-                  <p>
-                    <!--<a href="https://www.facebook.com/Creativitink" class="link-white"><i
-                    class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/Creativitink" class="link-white"><i
-                    class="fa fa-twitter"></i></a>-->
-                  </p>
-                </div>
-                <!-- Social Media Links -->
-              </div>
-            </div>
-          </div>
-
-          <!-- ============================
-           Content
-      ================================= -->
-
-         
+        <div class="social footer">
+            <ul>
+                <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://creativitink.com"><img src="images/facebook.png" /></a></li>
+                <li><a target="_blank" href="https://twitter.com/home?status=http://creativitink.com"><img src="images/twitter.png" /></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://creativitink.com&title=&summary=&source="><img src="images/linkedin.png" /></a></li>
+                <li><a target="_blank" href="https://pinterest.com/pin/create/button/?url=http://creativitink.com&media=&description=Signup now"><img src="images/pinterest.png" /></a></li>
+                <li><a target="_blank" href="mailto:info@example.com?&subject=&body=http://creativitink.com"><img src="images/gmail.png" /></a></li>
+            </ul>
         </div>
-      </div>
     </div>
-    <!-- /#page -->
-    <div id="photoswipe"></div>
+</body>
 
-    <!-- Scripts -->
-    <script src="js/plugins/jquery-1.12.4.min.js"></script>
-    <script src="js/plugins/bootstrap.min.js"></script>
-    <script src="js/plugins/scrollreveal.min.js"></script>
-    <script src="js/plugins/contact-form.js"></script>
-    <script src="js/plugins/newsletter-form.js"></script>
-    <script src="js/plugins/jquery.ajaxchimp.min.js"></script>
-    <script src="js/plugins/photoswipe/photoswipe.min.js"></script>
-    <script src="js/plugins/photoswipe/photoswipe-ui-default.min.js"></script>
-    <script src="js/plugins/jquery.countdown.min.js"></script>
-    <script src="js/plugins/rainyday.min.js"></script>
-    <script src="js/plugins/prefixfree.min.js"></script>
-
-    <!-- Custom Script -->
-    <script src="js/custom.js"></script>
-  </body>
+</html>
