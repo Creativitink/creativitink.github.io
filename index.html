@@ -1,154 +1,221 @@
 <html>
-
-<head>
+  <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TM68D4J');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TM68D4J");
+    </script>
     <!-- End Google Tag Manager -->
-    
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap" rel="stylesheet"> 
-    <style>
-        .center-screen {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            min-height: 90vh;
-        }
-        body {
-            font-family: 'Merriweather', serif;
-            color: #fff;
-            background-image: url("images/body-bg.jpg");
-            background-repeat: repeat;
-            font-size: 14pt;
-        }
-        a {
-            color: white;
-            text-decoration: none;
-        }
-        #logo img {
-            width: 150px;
-        }
-        #bg {
-            margin-top: 10px;
-            background-image: url("images/frame.png");
-            background-repeat: no-repeat;            
-            background-size: 100% 100%;
-        }
-        #content {
-            margin: auto auto;
-            width: 50%;
-        }
-        p.italic {
-            font-style: italic;
-        }
-        .social {
-            text-align: center;
-        }
-        .social li {
-            display: inline-block;
-            list-style-type: none;  
-            margin-right: 10px;
-        }
-        .social li a {
-            display: block;
-        }
-		.social img {
-			height: 40px;            
-		}
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            text-align: center;
-        }
-        .button {
-            background-color: #f69c3b; /* Green */
-            border: none;
-            color: white;
-            padding: 10px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-        }
-        @media only screen and (max-width: 768px) {
-            body {
-                font-size: 25pt;
-            }
-            p.spacer {
-                line-height: 3;
-            }
-        }
-        @media only screen and (max-width: 320px) {
-            body {
-                font-size: 15pt;
-            }
-            p.spacer {
-                line-height: 2;
-            }
-        }
-        @media only screen and (max-width: 1200px) and (min-width: 800px) {
-            body {
-                font-size: 25px;
-            }
-            p.spacer {
-                line-height: 3;
-            }
-        }
-    </style>
-</head>
 
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .center-screen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 90vh;
+      }
+      body {
+        font-family: "Merriweather", serif;
+        color: #fff;
+        background-image: url("images/body-bg.jpg");
+        background-repeat: repeat;
+        font-size: 14pt;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      #logo img {
+        width: 150px;
+      }
+      #bg {
+        margin-top: 10px;
+        background-image: url("images/frame.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      #content {
+        margin: auto auto;
+        width: 50%;
+      }
+      p.italic {
+        font-style: italic;
+      }
+      .social {
+        text-align: center;
+      }
+      .social li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 10px;
+      }
+      .social li a {
+        display: block;
+      }
+      .social img {
+        height: 40px;
+      }
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
+      .button {
+        background-color: #f69c3b; /* Green */
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      @media only screen and (max-width: 768px) {
+        body {
+          font-size: 25pt;
+        }
+        p.spacer {
+          line-height: 3;
+        }
+      }
+      @media only screen and (max-width: 320px) {
+        body {
+          font-size: 15pt;
+        }
+        p.spacer {
+          line-height: 2;
+        }
+      }
+      @media only screen and (max-width: 1200px) and (min-width: 800px) {
+        body {
+          font-size: 25px;
+        }
+        p.spacer {
+          line-height: 3;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM68D4J" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TM68D4J"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden;"
+      ></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <div class="center-screen">
-        <div id="logo">
-            <img src="images/creativitink-logo.png" />
-        </div>        
-        <div id="bg">
-            <div id="content">
-                <p class="spacer">&nbsp;</p>
-                <p class="spacer">&nbsp;</p>
-                
-                <h2>A platform for creatives</h2>
+      <div id="logo">
+        <img src="images/creativitink-logo.png" />
+      </div>
+      <div id="bg">
+        <div id="content">
+          <p class="spacer">&nbsp;</p>
+          <p class="spacer">&nbsp;</p>
 
-                <p>Creativitink is a platform inspired by the way you think. From story writer, editor, artist to illustrator, you can find collaborators and publish, manage, and monetize your projects alongside your fellow creatives.
-                </p>
-                
-                <p>From a fellow creative who has earned a living by monetizing her creative skills via
-                <a href="https://templatesandvectors.com"><em>Templates and Vectors</em></a> and <a href="https://www.facebook.com/KalidadPrintsAndFavors"><em>Kalidad Prints and Favors.</em></a></p>                    
-                
-                <p class="italic">If you are interested to monetize your project and be the first to know when Creativitink launches, click
-                    the <strong>sign-up</strong> button below!</p>
-                
-                <a href="https://forms.gle/rouoDvH4bDLnQocH7" target="_blank" class="button" role="button">Sign up
-                </a>
-                
-                <p class="italic">Already joined? <strong>Invite friends by sharing these links.</strong></p>
-                <p class="spacer">&nbsp;</p>
-                <p class="spacer">&nbsp;</p>
-            </div>
+          <h2>A platform for creatives</h2>
+
+          <p>
+            Creativitink is a platform inspired by the way you think. From story
+            writer, editor, artist to illustrator, you can find collaborators,
+            publish, manage, and monetize your projects alongside your fellow
+            creatives.
+          </p>
+
+          <p>
+            From a fellow creative who has earned a living by monetizing her
+            creative skills via
+            <a href="https://templatesandvectors.com"
+              ><em>Templates and Vectors</em></a
+            >
+            and
+            <a href="https://www.facebook.com/KalidadPrintsAndFavors"
+              ><em>Kalidad Prints and Favors.</em></a
+            >
+          </p>
+
+          <p class="italic">
+            If you are interested to monetize your project and be the first to
+            know when Creativitink launches, click the
+            <strong>sign-up</strong> button below!
+          </p>
+
+          <a
+            href="https://forms.gle/rouoDvH4bDLnQocH7"
+            target="_blank"
+            class="button"
+            role="button"
+            >Sign up
+          </a>
+
+          <p class="italic">
+            Already joined?
+            <strong>Invite friends by sharing these links.</strong>
+          </p>
+          <p class="spacer">&nbsp;</p>
+          <p class="spacer">&nbsp;</p>
         </div>
-        <div class="social">
-            <ul>
-                <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://creativitink.com"><img src="images/facebook.png" /></a></li>
-                <li><a target="_blank" href="https://twitter.com/home?status=http://creativitink.com"><img src="images/twitter.png" /></a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://creativitink.com&title=&summary=&source="><img src="images/linkedin.png" /></a></li>
-                <li><a target="_blank" href="https://pinterest.com/pin/create/button/?url=http://creativitink.com&media=&description=Signup now"><img src="images/pinterest.png" /></a></li>
-                <li><a target="_blank" href="mailto:info@example.com?&subject=&body=http://creativitink.com"><img src="images/gmail.png" /></a></li>
-            </ul>
-        </div>
+      </div>
+      <div class="social">
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/sharer/sharer.php?u=http://creativitink.com"
+              ><img src="images/facebook.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://twitter.com/home?status=http://creativitink.com"
+              ><img src="images/twitter.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/shareArticle?mini=true&url=http://creativitink.com&title=&summary=&source="
+              ><img src="images/linkedin.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://pinterest.com/pin/create/button/?url=http://creativitink.com&media=&description=Signup now"
+              ><img src="images/pinterest.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="mailto:info@example.com?&subject=&body=http://creativitink.com"
+              ><img src="images/gmail.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
