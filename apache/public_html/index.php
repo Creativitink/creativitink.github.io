@@ -56,8 +56,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </p>
                   <p>
                     From a fellow creative who has earned a living by monetizing
-                    her creative skills via Templates and Vectors and Kalidad
-                    Prints and Favors.
+                    her creative skills via <a href="https://templatesandvectors.com">Templates and Vectors</a> and <a href="https://www.facebook.com/KalidadPrintsAndFavorsKalidad">
+                    Prints and Favors.</a>
                   </p>
 
                   <p>
@@ -423,7 +423,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <label for="WTS">What do you want to sell? </label>
                     <input type="text" name="WTS" id="WTS" />
                     <label for="commission"
-                      >Are you willing to pay 15% commission?
+                      >If we help you sell (or make money or whatever), are you willing to give us a 15% commission?
                     </label>
                     <select name="commission" id="commission"  required="required">
                       <option value="Yes">Yes</option>
