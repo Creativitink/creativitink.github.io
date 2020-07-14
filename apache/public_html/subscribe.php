@@ -23,8 +23,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
     $commission = $_POST['commission'];
     $monetize = $_POST['monetize'];
 
-    $list_id = 'd5f321cdae';
-    $api_key = '4d3ab2514cfb3ff082cb0457b663c70c-us10';
+    $list_id = 'xxx';
+    $api_key = 'xxx';
     
     $data_center = substr($api_key,strpos($api_key,'-')+1);
     
