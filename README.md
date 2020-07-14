@@ -9,3 +9,7 @@ Creativitink is a marketplace for creatives where they can monetize their projec
 3. Help creatives find students.
 4. Help creatives in selling their merchandise, original works and more.
 5. Help creatives find collaborators to work on their project.
+
+## Running Docker
+
+sudo docker run -d --name phpfpm -p 80:80 -v /home/ubuntu/app:/app bitnami/php-fpm
