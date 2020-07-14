@@ -56,8 +56,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   </p>
                   <p>
                     From a fellow creative who has earned a living by monetizing
-                    her creative skills via <a href="https://templatesandvectors.com">Templates and Vectors</a> and <a href="https://www.facebook.com/KalidadPrintsAndFavorsKalidad">
-                    Prints and Favors.</a>
+                    her creative skills via <a target="_blank" href="https://templatesandvectors.com">Templates and Vectors</a> and <a target="_blank" href="https://www.facebook.com/KalidadPrintsAndFavors">
+                    Kalidad Prints and Favors.</a>
                   </p>
 
                   <p>
