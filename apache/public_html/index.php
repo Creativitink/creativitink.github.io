@@ -10,6 +10,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Creativitink is a platform inspired by the way you think. From story writer, editor, artist to illustrator, you can find collaborators, publish, manage, and MONETIZE your projects alongside your fellow creatives.">
+    <meta name="keywords" content="connect, creative, creative network, creative platform marketing, creative portfolio, platform for creatives, creative management platform, digital management platform, creative collaboration platform, creative profile, creative online publishing ">
+    <meta name="author" content="czetsuya@gmail.com">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Creativitink | A platform for creatives</title>
     <link
