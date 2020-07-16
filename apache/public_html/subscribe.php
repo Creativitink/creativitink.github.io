@@ -7,8 +7,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 
     $your_job_arr = $_POST['your_job'];
     $your_job =' ';
-    foreach($your_job_arr as $job){
-        $your_job.= $job . " | ";
+    if(!empty($your_job_arr)) {
+        foreach($your_job_arr as $job){
+            $your_job.= $job . " | ";
+        }
     }
 
     if(isset($_POST['other_job'])){

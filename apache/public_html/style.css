@@ -368,7 +368,7 @@ button {
 .site-header-inner {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .header-links {
@@ -434,7 +434,9 @@ button {
   }
   .hero-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .hero-copy {
     padding-top: 20px;
@@ -625,9 +627,36 @@ main {
 }
 
 form .success,
-form .faliure {
+form .failure {
   margin-bottom: 0px;
   text-align: center;
   font-size: 18px;
   line-height: 20px;
+}
+strong {
+  color: #fff;
+}
+
+.overlay {
+  z-index: 999 !important;
+  position: relative;
+}
+
+.messages, .reg-form form label, .reg-form form .yourjob label {
+  color: black;
+  z-index: 999 !important;
+  position: relative;
+}
+
+img.monetized {
+  width: 550px;
+}
+
+@media (max-width: 481px) {
+  img.monetized {
+    width: 300px;
+  }
+  .footer p {
+    font-size: 14px;   
+  }
 }
