@@ -11,7 +11,7 @@
       <!-- End Google Tag Manager -->
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="description" content="Creativitink is a platform inspired by the way you think. From story writer, editor, artist to illustrator, you can find collaborators, publish, manage, and MONETIZE your projects alongside your fellow creatives.">
+      <meta name="description" content="Creativitink is a platform inspired by the way you think. From story writer, editor, artist to illustrator, you can find collaborators, publish, manage, and monetize your projects alongside your fellow creatives.">
       <meta name="keywords" content="connect, creative, creative network, creative platform marketing, creative portfolio, platform for creatives, creative management platform, digital management platform, creative collaboration platform, creative profile, creative online publishing ">
       <meta name="author" content="czetsuya@gmail.com">
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -57,7 +57,7 @@
                            <p>
                               Creativitink is a platform inspired by the way you think.
                               From story writer, editor, artist to illustrator, you can
-                              find collaborators, publish, manage, and MONETIZE your
+                              find collaborators, publish, manage, and monetize your
                               projects alongside your fellow creatives.
                            </p>
                            <p>
@@ -77,7 +77,7 @@
                               </ul>
                            </div>
                            <p>
-                              If you are interested to MONETIZE your project and be the
+                              If you are interested to find collaborators, publish and monetize your project, and be the
                               first to know when Creativitink launches, fill out the form to <strong><a href="#SignupForm">SIGN-UP</a></strong>!
                            </p>
                            <div class="overlay">
@@ -264,15 +264,18 @@
                         </div>
                         <div class="reg-form">
                            <form id="SignupForm" action="./subscribe.php" method="POST">
-                              <p class='messages'><?php 
-                                 if(isset($_GET['code'])){
-                                   if($_GET['code'] ==  'success'){
-                                     echo "<p class='success'> We have received your registration. Thank you for subscribing. </p>";
-                                   }else{
-                                     echo "<p class='failure'> Sorry but the subscription failed. Please try again later. </p>";
-                                   }
-                                 } 
-                                 ?></p>
+                              <div class="overlay">
+                                 <p class='messages'><?php 
+                                    if(isset($_GET['code'])){
+                                    if($_GET['code'] ==  'success'){
+                                       echo "<p class='success'> We have received your registration. Thank you for signing up. You will receive an email when the platform goes live. </p>";
+                                    }else{
+                                       echo "<p class='failure'> Sorry but the subscription failed. Please try again later. </p>";
+                                    }
+                                    } 
+                                    ?>
+                                 </p>
+                              </div>
                               <label for="name">Your Name</label>
                               <input type="text" name="name" id="name"  required="required"/>
                               <label for="email">Your Email</label>
