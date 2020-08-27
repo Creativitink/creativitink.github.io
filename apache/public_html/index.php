@@ -265,12 +265,13 @@
                            <form id="SignupForm" action="./subscribe.php" method="POST">
                               <div class="overlay">
                                  <p class='messages'><?php 
-                                    if(isset($_GET['code'])){
-                                    if($_GET['code'] ==  'success'){
-                                       echo "<p class='success'> We have received your registration. Thank you for signing up. You will receive an email when the platform goes live. </p>";
-                                    }else{
-                                       echo "<p class='failure'> Sorry but the subscription failed. Please try again later. </p>";
-                                    }
+                                    if(isset($_GET['code'])) {
+                                       if($_GET['code'] == 'success'){
+                                          echo "<p class='success'> We have received your registration. Thank you for signing up. You will receive an email when the platform goes live. </p>";
+                                       
+                                       } else {
+                                          echo "<p class='failure'> Sorry but the subscription failed. Please try again later. </p>";
+                                       }
                                     } 
                                     ?>
                                  </p>
