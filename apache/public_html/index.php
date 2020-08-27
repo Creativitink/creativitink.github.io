@@ -52,17 +52,15 @@
                <div class="container">
                   <div class="hero-inner">
                      <div class="hero-copy">
-                        <h1 class="hero-title mt-0">A platform for creatives</h1>
+                        <h1 class="hero-title mt-0">A platform for creatives - Inspired by the way you think</h1>
                         <div class="hero-paragraph">
                            <p>
-                              Creativitink is a platform inspired by the way you think.
-                              From story writer, editor, artist to illustrator, you can
-                              find collaborators, publish, manage, and monetize your
-                              projects alongside your fellow creatives.
+                           Are you a creative looking to generate more revenue and monetize your digital products and services? 
+                           Sign up and be an early adopter at Creativitink!
                            </p>
                            <p>
                               From a team of fellow creatives who have earned a living by monetizing
-                              their creative skills via <a target="_blank" href="https://templatesandvectors.com">Templates and Vectors</a> and <a target="_blank" href="https://www.facebook.com/KalidadPrintsAndFavors">
+                              their creative skills via <a target="_blank" href="https://templatesan~dvectors.com">Templates and Vectors</a> and <a target="_blank" href="https://www.facebook.com/KalidadPrintsAndFavors">
                               Kalidad Prints and Favors</a> and have served thousands of happy clients around the world.
                            </p>
                            <h4>Why Creativitink?</h4>
@@ -72,7 +70,8 @@
                                  <li>Build your team as you grow your career.</li>
                                  <li>Fund your project with the contribution of your followers.</li>
                                  <li>Realize your project from idea to publication.</li>
-                                 <li>Sell in a creative-centric marketplace.</li>
+                                 <li>Sell your projects in a creative-centric marketplace.</li>
+                                 <li>Offer your creative services and get paid.</li>
                                  <li>Work your way to financial betterment.</li>
                               </ul>
                            </div>
@@ -81,7 +80,7 @@
                               first to know when Creativitink launches, fill out the form to <strong><a href="#SignupForm">SIGN-UP</a></strong>!
                            </p>
                            <div class="overlay">
-                              <img class="monetized" src="images/Creativitink-monetize-launchpad.png" alt="monetized-your-project" />
+                              <img class="monetized" src="images/creativitink-network-cover.jpg" alt="monetized-your-project" />
                            </div>
                            <div class="overlay share-links">
                               <h4>
